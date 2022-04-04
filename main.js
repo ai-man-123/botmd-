@@ -63,7 +63,7 @@ start('2', 'Menghubungkan')
 })
 kuza.on('open', () => {
 success('2', 'CONNECT TO YOUR WHATSAPP WEB')
-teks = `https://chat.whatsapp.com/CS4ESARec5o476nHesGIDt` 
+teks = `https://chat.whatsapp.com/` 
  kuza.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('🛑'), color('SUCCESSFUL TO JOINED TO DEVELOPER GRUP')) 
 })
