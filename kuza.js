@@ -82,13 +82,13 @@ const simple = require('./lib/simple.js')
 
     //--Setting--//
 
-let botname = '*_｢ KuzaBase 0.1 ｣ 冬_*' //NAMA BOT
-let lolkey = 'isi'
+let botname = '*_｢ rikkabot ｣ 冬_*' //NAMA BOT
+let lolkey = '4ef1b11287339c1b10699ece'
 let zekskey = 'NXRu7zmcmyWTn0YGNzIV0gTFgoP' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
-let ownername = '*_｢ AbilGanz ✘ ｣_*' //NAMA OWNER
-let owner = '6282293295376' // NOMOR OWNER
+let ownername = '*_｢ Aimanx2 ✘ ｣_*' //NAMA OWNER
+let owner = '60102810046' // NOMOR OWNER
 let symbol = '*☛*'
-let faketeks = `*_｢ KuzaBase 0.1 ｣ 冬_*` 
+let faketeks = `*_｢ Aimab rikka 0.1 ｣ 冬_*` 
 
 readGc = true; 
 readPc = true;
@@ -119,7 +119,7 @@ const args = body.trim().split(/ +/).slice(1)
 const isCmd = body.startsWith(prefix)
 const q = args.join(' ')
 const Verived = "0@s.whatsapp.net"
-const ytabilbotz = "6282293295376@s.whatsapp.net"
+const ytabilbotz = "60102810046@s.whatsapp.net"
 const txt = mek.message.conversation
 const botNumber = kuza.user.jid
 const ownerNumber = [`${owner}@s.whatsapp.net`, `6282293295376@s.whatsapp.net`, `6282293295376@s.whatsapp.net`]
@@ -541,7 +541,7 @@ latensi = speed() - timestamp;
 run = process.uptime();
  listMsg = {
  buttonText: 'ListMenu ️',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 Aimanx2',
  description: `Hai kak @${sender.split('@')[0]}, Saya ${botname}, saya akan membatu mempermudah kehidupan..seperti membuat sticker dan lain-lain. untuk memulai silahkan ketik Click Button Dibawah yaa 🙏
  
  *_｢ Indonesia Time ｣_*
@@ -562,7 +562,7 @@ ${symbol} Speed : *${latensi.toFixed(4)} second*
 ${symbol} Runtime : *${kyun(run)}*`,
  sections: [
                      {
-                      "title": `Youtube : ABIL BOTZ`,
+                      "title": `tiktok : `tiktok.com/@aiman_night,
  rows: [
                           {
                               "title": "☰ Command / All Menu️",
@@ -601,7 +601,7 @@ latensi = speed() - timestamp;
 run = process.uptime();
  listMsg = {
  buttonText: 'Buttons',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 Aiman',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan Pilih Salah Satu Button List Dibawah Yaa 🙏
  
  *_｢ Indonesia Time ｣_*
@@ -1027,7 +1027,7 @@ break
 case 'sewabot':
  listMsg = {
  buttonText: 'Buttons',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 Aiman',
  description: `Hai kak @${sender.split('@')[0]}, Mau Sewabot Ya?
  Nih Kak Listnya
  
@@ -1056,7 +1056,7 @@ break
 
 case 'donasi':
 case 'sedekah':
-reply(`Donasi ${botname}\nQrisAllPayment\nhttps://bit.ly/Allpay\nGopay\nhttps://bit.ly/qrgopay\nOvo\nhttps://bit.ly/qrovo\nDana\nhttp://bit.ly/3HGqiQK`)
+reply(`Donasi ${botname}\nQrisAllPayment\nhttps://bit.ly/Allpay\nGopay\nhttps://bit.ly/qrgopay\nOvo\nhttps://bit.ly/qrovo\nDana\nhttp://bit.ly/aiman`)
 break
 
 
